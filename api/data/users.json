@@ -1,0 +1,27 @@
+{
+    "users":{
+        "data":[
+            {
+              "id": "1",
+              "username": "john_doe",
+              "email": "john@example.com",
+              "full_name": "John Doe",
+              "registered_date": "2023-01-15"
+            },
+            {
+              "id": "2",
+              "username": "jane_smith",
+              "email": "jane@example.com",
+              "full_name": "Jane Smith",
+              "registered_date": "2023-02-20"
+            },
+            {
+              "id": "3",
+              "username": "alice_jones",
+              "email": "alice@example.com",
+              "full_name": "Alice Jones",
+              "registered_date": "2023-03-25"
+            }
+          ]
+    }
+}

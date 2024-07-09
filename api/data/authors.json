@@ -1,0 +1,27 @@
+{
+    "authors":{
+        "data":[
+            {
+              "id": "1",
+              "name": "Harper Lee",
+              "birth_year": 1926,
+              "nationality": "Americana",
+              "books_written": 2
+            },
+            {
+              "id": "2",
+              "name": "George Orwell",
+              "birth_year": 1903,
+              "nationality": "Inglês",
+              "books_written": 9
+            },
+            {
+              "id": "3",
+              "name": "Jane Austen",
+              "birth_year": 1775,
+              "nationality": "Inglês",
+              "books_written": 6
+            }
+          ]
+    }
+}

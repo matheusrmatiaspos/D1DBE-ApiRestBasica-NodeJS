@@ -1,0 +1,28 @@
+{
+    "publishers":{
+        "data":[
+            {
+              "id": "1",
+              "name": "Penguin Random House",
+              "address": "New York, NY",
+              "founded_year": 1925,
+              "total_books_published": 10000
+            },
+            {
+              "id": "2",
+              "name": "HarperCollins",
+              "address": "New York, NY",
+              "founded_year": 1989,
+              "total_books_published": 8000
+            },
+            {
+              "id": "3",
+              "name": "Simon & Schuster",
+              "address": "New York, NY",
+              "founded_year": 1924,
+              "total_books_published": 7500
+            }
+          ]
+          
+    }
+}
