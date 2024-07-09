@@ -34,6 +34,42 @@ GET      - /usuario/{id}
 ```
 
 ### 🏁 Iniciando a Api
+Utilizei o Express para construir esta API, logo, para que a mesma funcione é necessário realizar sua instalação através do comando:
+```bash
+npm install express
+```
+Com o Express instalado é possível inicializar a aplicação através do comando:
 ```bash
 node server.js
 ```
+
+### 🎟️ Acessando EndPoints com Curl
+- /
+```bash
+curl -X GET http://localhost:8080/
+
+// Bem-vindo a API Node JS
+```
+
+- /autores [GET]
+```bash
+curl -X GET http://localhost:8080/autores
+// {"authors":{"data":[{"id":"1","name":"Harper Lee","birth_year":1926,"nationality":"Americana","books_written":2},{"id":"2","name":"George Orwell","birth_year":1903,"nationality":"Inglês","books_written":9},{"id":"3","name":"Jane Austen","birth_year":1775,"nationality":"Inglês","books_written":6}]}}birth_year":1974,"nationality":"British","movies_starred":45}]
+```
+
+- /autores [POST]
+```bash
+curl -X POST -H 'Content-Type: application/json' -d '{"id": "4","name": "F. Scott Fitzgerald","birth_year": 1896,"nationality": "Americano","books_written":5}' http://localhost:8080/autores
+// {"id":"4","name":"F. Scott Fitzgerald","birth_year":1896,"nationality":"Americano","books_written":5}
+```
+- /autor/1
+```bash
+curl -X GET http://localhost:8080/autor/1
+// {"id":"1","name":"Harper Lee","birth_year":1926,"nationality":"Americana","books_written":2}
+```
+
+### 📒 Disciplina
+D1DBE - Desenvolvimento Back-End I
+
+### 🚩 Outra API (GoLang)
+Clique [aqui](https://github.com/matheusrmatiaspos/D1DBE-ApiRestBasica-GoLang) para acessar a outra api desenvolvida com essa mesma proposta, porém com um tema e linguagem diferentes.
